@@ -1,0 +1,33 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:pe="http://primefaces.org/ui/extensions" 
+	template="/templates/template.xhtml">
+	<ui:define name="metadata">
+	</ui:define>
+	<ui:define name="content">
+	<h1 align="center">Alta de propiedades</h1>
+	<div style="height: 50px;" >
+		<h:panelGrid>
+				<p:panelGrid>
+					<p:row>
+						<p:column rowspan="3">AAA</p:column>
+						<p:column colspan="4">BBB</p:column>
+					</p:row>
+					<p:row>
+						<p:column colspan="2">CCC</p:column>
+						<p:column colspan="2">DDD</p:column>
+					</p:row>
+					<p:row>
+						<p:column>EEE</p:column>
+						<p:column>FFF</p:column>
+						<p:column>GGG</p:column>
+						<p:column>HHH</p:column>
+					</p:row>
+				</p:panelGrid>
+			</h:panelGrid>
+	</div>
+	</ui:define>
+</ui:composition>
